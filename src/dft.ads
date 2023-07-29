@@ -1,3 +1,5 @@
+--  Copyright (C) 2023 Mateus de Lima Oliveira
+
 package DFT is
 
    pragma Elaborate_Body;

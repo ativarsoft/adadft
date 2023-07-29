@@ -1,3 +1,5 @@
+--  Copyright (C) 2023 Mateus de Lima Oliveira
+
 with Ada.Numerics;
 with Ada.Numerics.Generic_Elementary_Functions;
 
