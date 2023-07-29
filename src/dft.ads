@@ -10,12 +10,9 @@ package DFT is
 
    N : constant := 1024;
 
-   procedure Trace_DFT
-      (Signal           : Signal_Type;
-       Real_Output      : out Signal_Type;
-       Imaginary_Output : out Signal_Type);
+   function Spectrum
+      (Signal : Signal_Type)
+       return Signal_Type;
 
-   procedure Spectrum
-      (Signal : Signal_Type);
 
 end DFT;
